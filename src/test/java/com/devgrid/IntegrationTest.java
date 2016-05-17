@@ -30,4 +30,13 @@ public class IntegrationTest {
         assertEquals(response.body().asString(), "35");
     }
 
+
+    @Test
+    public void failingTest() {
+        Response response = get("http://localhost:8200/calculator/multiply?a=5&b=7").andReturn();
+        assertEquals(response.getStatusCode(), 200);
+        assertEquals(response.body().asString(), "3333333");
+    }
+
+
 }
