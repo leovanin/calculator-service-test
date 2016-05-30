@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.voltaware</groupId>
-    <artifactId>calculator-service-test</artifactId>
+    <artifactId>sai-service-test</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <name>calculator-service-test</name>
+    <name>sai-service-test</name>
 
     <properties>
         <java.version>1.8</java.version>

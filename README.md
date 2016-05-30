@@ -1,7 +1,7 @@
-## A Integration Test suite for the Calculator Service ##
+## A Integration Test suite for SAI-Service ##
 
 
-This is a Junit/Rest-assured module to test the calculator functionality.
+This is a Junit/Rest-assured module to test the SAI-Service functionality.
 
 
 ### How to run it
@@ -10,6 +10,4 @@ This is a Junit/Rest-assured module to test the calculator functionality.
 
 Make sure you run on the same directory then pom.xml.
 
-
-It's configuration are hardcoded to run against localhost.
-
+The configuration is hardcoded to run against localhost.
