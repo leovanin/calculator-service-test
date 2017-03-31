@@ -19,7 +19,7 @@ public class IntegrationTest {
     public void testMultiplyCase1() {
         Response response = get("http://localhost:8200/calculator/multiply?a=3&b=4").andReturn();
         assertEquals(response.getStatusCode(), 200);
-        assertEquals(response.body().asString(), "11");
+        assertEquals(response.body().asString(), "12");
     }
 
 
