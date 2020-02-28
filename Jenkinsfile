@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Run') {
+    stage('Test') {
       agent any
       environment {
         localhost = 'localhost'
